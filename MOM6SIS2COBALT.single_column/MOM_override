@@ -54,7 +54,7 @@ REENTRANT_X = True
 Z_INIT_HOMOGENIZE = True
 ROTATION = "betaplane"
 F_0 = 0
-HOMOGENIZE_IOB_FORCINGS = True
+HOMOGENIZE_FORCINGS = True
 !!OBGC tracers
 #override USE_OCMIP2_CFC = False
 #override USE_IDEAL_AGE_TRACER = False
