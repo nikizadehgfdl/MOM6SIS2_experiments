@@ -3,6 +3,8 @@
 (mkdir -p datasets/grids; cd datasets/grids; wget ftp://ftp.gfdl.noaa.gov/pub/Niki.Zadeh/OM4_datasets/OM4_single_column_grid.tar.gz; tar zxvf OM4_single_column_grid.tar.gz)
 #MOM6SIS2COBALT.global_halfdegree
 (mkdir -p datasets/grids; cd datasets/grids; wget ftp://ftp.gfdl.noaa.gov/pub/Niki.Zadeh/OM4_datasets/OM4global_p5.tar.gz; tar zxvf OM4global_p5.tar.gz)
+#MOM6SIS2COBALT.global_twodegree
+(mkdir -p datasets/grids; cd datasets/grids; wget ftp://ftp.gfdl.noaa.gov/pub/Niki.Zadeh/OM4_datasets/OM4_2deg_20191121.tar.gz; tar zxvf OM4_2deg_20191121.tar.gz)
 
 #### IC
 (mkdir -p datasets/; cd datasets/; wget ftp://ftp.gfdl.noaa.gov/perm/Alistair.Adcroft/MOM6-testing/obs.tgz; tar zxvf obs.tgz)
